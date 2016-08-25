@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.win8.educon.Sign_UP">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Sign Up"
+            android:textColor="#176CEC"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+
+            android:textColorHint="#F87217"
+            android:hint="Enter Your Name"
+            android:id="@+id/editText3"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter your User Name"
+            android:textColorHint="#F87217"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:id="@+id/editText5"
+            android:layout_below="@+id/editText3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Choose your Password"
+            android:ems="10"
+            android:layout_below="@id/editText5"
+            android:layout_marginTop="40dp"
+            android:id="@+id/editText6"
+            android:textColorHint="#F87217"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Password"
+            android:textColor="#F87217"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/editText6"
+            android:id="@+id/checkBox2"
+            android:layout_alignLeft="@+id/editText6"
+            android:layout_alignStart="@+id/editText6"
+            android:checked="false" />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="Enter your mail"
+            android:textColorHint="#F87217"
+            android:layout_marginTop="40dp"
+            android:id="@+id/editText7"
+            android:layout_below="@+id/checkBox2"
+            android:layout_alignLeft="@+id/checkBox2"
+            android:layout_alignStart="@+id/checkBox2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Sign up"
+            android:id="@+id/button4"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginTop="40dp"
+            android:background="#3b5998"
+            android:textColor="#ffffff"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_student"
+            android:id="@+id/imageView4"
+            android:layout_above="@+id/editText5"
+            android:layout_toLeftOf="@+id/editText3"
+            android:layout_toStartOf="@+id/editText3" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_student"
+            android:id="@+id/imageView5"
+            android:layout_alignBottom="@+id/editText5"
+            android:layout_toLeftOf="@+id/editText5"
+            android:layout_toStartOf="@+id/editText5" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_password_generator"
+            android:id="@+id/imageView6"
+            android:layout_alignTop="@+id/editText6"
+            android:layout_toLeftOf="@+id/editText6"
+            android:layout_toStartOf="@+id/editText6" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_comment_black_36dp"
+            android:id="@+id/imageView7"
+            android:layout_alignBottom="@+id/editText7"
+            android:layout_toLeftOf="@+id/editText7"
+            android:layout_toStartOf="@+id/editText7" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:entries="@array/Reg_User"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/editText7"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView8"
+            android:background="@drawable/ic_protection"
+            android:layout_alignBottom="@+id/checkBox2"
+            android:layout_toLeftOf="@+id/checkBox2"
+            android:layout_toStartOf="@+id/checkBox2" />
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

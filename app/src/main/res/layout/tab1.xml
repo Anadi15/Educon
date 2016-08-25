@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Welcome to AdminPage"
+            android:id="@+id/textView36"
+            android:textColor="#176CEC"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/download"
+            android:id="@+id/imageView11"
+            android:layout_below="@+id/textView36"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F87217"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="The Admin have Power to controlall database
+ operations including Viewing registered Students,Teacher as well as their Personal
+ details.Admin has also power to control database by updating all information
+ and also if needed he can eaisly delete any record or cange its permission.As register page
+ is for limited time and only limited to valid user
+ Admin also able to stop the registration process."
+            android:id="@+id/textView37"
+            android:layout_below="@+id/imageView11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+    </RelativeLayout>
