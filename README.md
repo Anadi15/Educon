@@ -1,5 +1,5 @@
 # Educon
-This app is basically designed for the school and college ..by using this app teacher and students can enter their detials and check notifications ,Atteendence etc.. Teacher can add notification,marks etc. Students can enter their detils along with picture which may benifit the schools and organisation and compnies to check details enter by the students. The next version of this app include all college detials regarding Fee structure,marks,percentage and attendence..and sms facility
+This app is basically designed for the **school** and **college** ..by using this app teacher and students can enter their detials and check notifications ,Atteendence etc.. Teacher can add notification,marks etc. Students can enter their detils along with picture which may benifit the schools and organisation and compnies to check details enter by the students. The next version of this app include all college detials regarding Fee structure,marks,percentage and attendence..and sms facility
 First Activity ..Consist of Splash Screen..
 ![screenshot_20160827-011121](https://cloud.githubusercontent.com/assets/21233478/18018634/9efd3e54-6bf5-11e6-9fb2-495a74963bf7.png)
 Second Activity..Consist of Login Page With Validation
@@ -42,7 +42,22 @@ In Admin Session
 ![screenshot_20160827-005916](https://cloud.githubusercontent.com/assets/21233478/18019300/fa8bdb42-6bf8-11e6-8b5a-c934010f33ee.png)
 ![screenshot_20160827-005920](https://cloud.githubusercontent.com/assets/21233478/18019301/ff836d04-6bf8-11e6-95f7-6def68abd5a1.png)
 ![screenshot_20160827-005939](https://cloud.githubusercontent.com/assets/21233478/18019311/0c2b6f66-6bf9-11e6-84a3-1e09bb58ba04.png)
+Copyright 2016 **Anadi Shankar**
 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
+   http://www.apache.org/licenses/LICENSE-2.0
 
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+#Library licenses
+**android-ui-1.2** is subject to the Apache License, Version 2.0. More information on the official web site.
+
+**nineoldandroids-2.4.0** is subject to the Apache License, Version 2.0. More information on the official web site.
 
