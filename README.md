@@ -42,19 +42,20 @@ In Admin Session
 ![screenshot_20160827-005916](https://cloud.githubusercontent.com/assets/21233478/18019300/fa8bdb42-6bf8-11e6-8b5a-c934010f33ee.png)
 ![screenshot_20160827-005920](https://cloud.githubusercontent.com/assets/21233478/18019301/ff836d04-6bf8-11e6-95f7-6def68abd5a1.png)
 ![screenshot_20160827-005939](https://cloud.githubusercontent.com/assets/21233478/18019311/0c2b6f66-6bf9-11e6-84a3-1e09bb58ba04.png)
+#License
 Copyright 2016 **Anadi Shankar**
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+>Licensed under the Apache License, Version 2.0 (the "License");
+>you may not use this file except in compliance with the License.
+>You may obtain a copy of the License at
 
-   http://www.apache.org/licenses/LICENSE-2.0
+ >  http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+>Unless required by applicable law or agreed to in writing, software
+>distributed under the License is distributed on an "AS IS" BASIS,
+>WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+>See the License for the specific language governing permissions and
+>limitations under the License.
 
 #Library licenses
 **android-ui-1.2** is subject to the Apache License, Version 2.0. More information on the official web site.
